@@ -1,38 +1,80 @@
-.App {
+.container {
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: white;
+  border-radius: 12px;
+  padding: 18px;
+  max-width: 1080px;
+  flex: 1;
+}
+.winBar {
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: white;
+  border-radius: 12px;
+  max-width: 1080px;
+  padding: 26px 0px;
+  flex: 1;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input:focus {
+  outline: none;
+  caret-color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.textCenter {
+  text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.infoText {
+  padding: 1.5% 0%;
+}
+.scoreText {
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: bold;
+  padding: 3% 0%;
+}
+.flexCenter {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  min-height: 100vh;
+}
+.allCenter {
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.row {
+  display: flex;
+}
+.rowItem {
+  flex: 1;
+}
+.btnRow {
+  text-align: center;
+  padding: 1% 0%;
+}
+.wordRow {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+#scrambled-word {
+  font-size: 2.6rem;
+  color: rgb(73, 73, 204);
+  text-align: center;
+  font-weight: bold;
+  padding: 3% 0%;
+}
+.nextBtn {
+  padding: 18px 40px;
+  font-size: 1.1rem;
   color: white;
+  background-color: #388e3c;
+  cursor: pointer;
+  border: none;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .nextBtn:hover {
+  cursor: pointer;
+} */
